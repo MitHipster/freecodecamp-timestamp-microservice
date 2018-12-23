@@ -1,0 +1,19 @@
+{
+  "name": "freecodecamp-timestamp-microservice",
+  "version": "1.0.0",
+  "description": "Node.js Timestamp Microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MitHipster/freecodecamp-timestamp-microservice.git"
+  },
+  "author": "Tim Acker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MitHipster/freecodecamp-timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/MitHipster/freecodecamp-timestamp-microservice#readme"
+}
