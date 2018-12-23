@@ -36,6 +36,13 @@ const requestHandler = (req, res) => {
 
 		res.writeHead(200, { 'Content-Type': 'application/json' });
 		res.end(JSON.stringify(timestamp));
+	} else {
+		fs.readFile('./views/404.html', 'utf8', (err, html) => {
+			if (err) throw err;
+
+			res.writeHead(404, { 'Content-Type': 'text/html' });
+			res.end(html);
+		});
 	}
 };
 
